@@ -5,7 +5,7 @@ import Sidebar from './Sidebar';
 export default function AppLayout() {
   const { isAuthenticated } = useAppSelector((s) => s.auth);
 
-//   if (!isAuthenticated) return <Navigate to="/login" replace />;
+  if (!isAuthenticated) return <Navigate to="/login" replace />;
 
   return (
     <div className="min-h-screen bg-surface-50 relative noise">

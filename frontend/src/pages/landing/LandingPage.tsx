@@ -264,7 +264,7 @@ export default function LandingPage() {
             <img src="/favicon.svg" alt="LectureMind" className="w-5 h-5" />
             <span className="text-sm font-medium text-surface-600">LectureMind</span>
           </div>
-          <p className="text-sm text-surface-500">&copy; {new Date().getFullYear()} LectureMind. Built with AI.</p>
+          <p className="text-sm text-surface-500">&copy; {new Date().getFullYear()} LectureMind. Built by Ratul, Tejas, and Copilot.</p>
         </div>
       </footer>
     </div>
